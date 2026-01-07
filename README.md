@@ -89,7 +89,7 @@ The <b>Rejouice</b> Website Clone is a creative web design project that replicat
 
 ---
 
-<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/CodeRaiderLand.png" />
+<!-- <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/CodeRaiderLand.png" />
 <h3> CodeRaider</h3>
 <p>
 The <b>CodeRaider</b> landing page embraces a bold, futuristic, and ultra-clean aesthetic, reflecting the power and precision of the platform. Its modern layout uses crisp typography, balanced spacing, and a dark, high-contrast palette that gives the interface a sleek developer-centric feel. Smooth transitions, glowing accents, and subtle depth effects create a dynamic visual experience without overwhelming the user.
@@ -115,7 +115,7 @@ The <b>ByteBrief</b> landing page features a modern, sleek, and minimal design c
   <img width="130px" src="https://img.shields.io/badge/bytebrief-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
 </a>
 
----
+--- -->
 
 <div align="left">
   
@@ -148,7 +148,7 @@ This <b>Yeho .NET</b> is a Dotnet Core MVC full-stack application is a minimalis
 
 ---
 
-<img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/dark-alchemy.png">
+<!-- <img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/dark-alchemy.png">
 
 <div align="left">
 <h3>Alchemy AI</h3>
@@ -163,7 +163,7 @@ This <b>Yeho .NET</b> is a Dotnet Core MVC full-stack application is a minimalis
   <img src="https://img.shields.io/badge/Netlify-Alchemy_AI-555555?style=for-the-badge&logo=netlify&logoColor=white" alt="Alchemy AI Platform"></a>
 
 
----
+--- -->
 
 <div align="left">
 
