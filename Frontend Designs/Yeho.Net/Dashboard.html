@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        .header .left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-icon {
+    width: 40px; /* Default size */
+    margin-left: 15px; /* Space between text and image */
+    border-radius: 50%; /* If you want a circular image */
+    transition: width 0.3s ease; /* Smooth transition when resizing */
+}
+
+/* Responsive adjustments for different screen sizes */
+
+/* For large screens */
+@media (min-width: 1024px) {
+    .dashboard-icon {
+        width: 50px; /* Increase size for larger screens */
+    }
+}
+
+/* For medium screens */
+@media (max-width: 767px) {
+    .dashboard-icon {
+        width: 35px; /* Adjust size for medium screens */
+    }
+}
+
+/* For small screens */
+@media (max-width: 576px) {
+    .dashboard-icon {
+        width: 60px; /* Smaller size for mobile devices */
+    }
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- SIdeBar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class="logo-icon"></i>
+            <div class="logo-name"><span>Bezehel</span></div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="#"><i class='bx bxs-dashboard'></i> DashBoard</a></li>
+            <li><a href="#"><i class='bx bxs-store-alt'></i> Store</a></li>
+            <li><a href="#"><i class='bx bxs-analyse'></i> Analytics</a></li>
+            <li><a href="#"><i class='bx bxs-message-square-detail'></i> Messages</a></li>
+            <li><a href="#"><i class='bx bxs-group'></i> Lists</a></li>
+            <li><a href="#"><i class='bx bxs-cog'></i> Settings</a></li>
+        </ul>
+
+        <ul class="side-menu">
+            <li>
+                <a href="index.html" class="logout">
+                    <i class='bx bxs-log-in-circle'></i>
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- End of the sidebar -->
+
+    <!-- Main Content -->
+
+    <div class="content">
+
+        <!-- Navbar -->
+
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bxs-search-alt-2'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle" style="margin-right: 20px;"></label>
+          <!--  <a href="#" class="notif">
+                <i class='bx bxs-bell'></i>
+                <span class="count">12</span>
+            </a> -->
+            <a href="#" class="profile">
+                <img src="Images/b2.jpg" alt="Profile Image" class="profile-image" style="width:50px; margin-left: 20px; margin-top: 5px;">
+            </a>
+        </nav>
+
+        <!-- End of Navbar -->
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Dashboard<img src="Images/logob.jpg" alt="Dashboard Icon" class="dashboard-icon"></h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#" class="active">Shop</a></li>
+                    </ul>
+                </div>
+                <a class="report">
+                    <i class='bx bxs-cloud-download'></i>
+                    <span>Download CSV</span>
+                </a>
+            </div>
+
+            <!-- Insights -->
+            <ul class="insights">
+                <li>
+                    <i class='bx bxs-calendar'></i>
+                    <span class="info">
+                        <h3>1,074</h3>
+                        <p>Paid Order</p>
+                    </span>
+                </li>
+                <li>
+                    <i class='bx bxs-show'></i>
+                    <span class="info">
+                        <h3>5,049</h3>
+                        <p>Site Visits</p>
+                    </span>
+                </li>
+                <li>
+                    <i class='bx bx-line-chart'></i>
+                    <span class="info">
+                        <h3>11,904</h3>
+                        <p>Searches</p>
+                    </span>
+                </li>
+                <li>
+                    <i class='bx bxs-dollar-circle'></i>
+                    <span class="info">
+                        <h3>$1,074</h3>
+                        <p>Total Sales</p>
+                    </span>
+                </li>
+            </ul>
+            <!-- End of Insights -->
+
+            <div class="bottom-data">
+                <div class="orders">
+                    <div class="header">
+                        <i class='bx bxs-receipt'></i>
+                        <h3>Recent Orders</h3>
+                        <i class='bx bx-filter'></i>
+                        <i class='bx bx-search-alt-2'></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Order Date</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="Images/img_avatar3.png">
+                                    <p>John Doe</p>
+                                </td>
+                                <td>19-04-2024</td>
+                                <td>
+                                    <span class="status completed">
+                                        completed
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="Images/img_avatar3.png">
+                                    <p>John Doe</p>
+                                </td>
+                                <td>19-04-2024</td>
+                                <td>
+                                    <span class="status pending">
+                                        Pending
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="Images/img_avatar3.png">
+                                    <p>John Doe</p>
+                                </td>
+                                <td>19-04-2024</td>
+                                <td>
+                                    <span class="status process">
+                                        Process
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Remainders -->
+                <div class="remainders">
+                    <div class="header">
+                        <i class='bx bxs-note'></i>
+                        <h3>Remainders</h3>
+                        <i class='bx bx-filter'></i>
+                        <i class='bx bx-plus'></i>
+                    </div>
+
+                    <ul class="task-list">
+                        <li class="completed">
+                            <div class="task-list">
+                                <i class='bx bxs-check-circle'></i>
+                                <p>Start Our Meeting</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                        <li class="not-completed">
+                            <div class="task-list">
+                                <i class='bx bxs-check-circle'></i>
+                                <p>Analyis my site</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                        <li class="completed">
+                            <div class="task-list">
+                                <i class='bx bxs-x-circle'></i>
+                                <p>Start your Journey at my site</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- End of Remainders -->
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
