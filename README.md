@@ -148,7 +148,7 @@ The <b>ByteBrief</b> landing page features a modern, sleek, and minimal design c
 ---
 
 <img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/yeho.net.png">
-<img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/dashboard.png">
+<img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/dashboard1.png">
 <h3>Yeho .Net</h3>
 This <b>Yeho .NET</b> is a Dotnet Core MVC full-stack application is a minimalistic, modern website integrated with a robust Customer Management System. Built using HTML, CSS, and Bootstrap v5 architecture, it ensures clean UI, efficient performance, and easy customer data handling. Ideal for managing clients in a sleek, responsive web environment.
 <br>
