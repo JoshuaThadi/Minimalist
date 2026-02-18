@@ -89,6 +89,20 @@ The <b>Rejouice</b> Website Clone is a creative web design project that replicat
 
 ---
 
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/sprintly-beta.png" />
+<h3> Sprintly </h3>
+<p>
+The Sprintly Landing Page is a modern and responsive web design project created to showcase a fast, clean, and user-friendly digital product interface. Built using Next.js, Tailwind CSS, and Javascript, this project focuses on performance, scalability, and elegant UI design. It features smooth navigation, optimized layouts, and visually appealing components that adapt seamlessly across devices. The landing page highlights key product features, call-to-action sections, and branding elements, demonstrating best practices in frontend development and modern web architecture.
+</p>
+
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/sprintly-beta" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://sprintly-beta.netlify.app/" target="_blank">
+  <img width="163px" src="https://img.shields.io/badge/sprintly-beta-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+</a>
+
+---
+
 <!-- <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/CodeRaiderLand.png" />
 <h3> CodeRaider</h3>
 <p>
