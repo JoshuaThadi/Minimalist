@@ -211,6 +211,7 @@ The <b>Vite.js Webfolio</b> is a personal portfolio website project built using 
 <a href="https://masterjudah.netlify.app/" target="_blank">
   <img width="145px" src="https://img.shields.io/badge/MasterJudah-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
 </a>  
+
 ---
 
 <div align="left">
