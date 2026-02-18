@@ -1,0 +1,151 @@
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen dotted-background overflow-hidden">
+
+      {/* HERO SECTION */}
+      <section className="p-80 px-6">
+
+        <div className="max-w-4xl mx-auto text-center flex flex-col items-center space-y-6">
+
+          {/* Badge */}
+          <span className="inline-block px-4 py-1 text-sm border border-black/20 bg-white text-black">
+            Beta Version
+          </span>
+
+          {/* Heading */}
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight">
+            Manage Projects Faster.
+            <br />
+            Build Better. Ship Smarter.
+            <br />
+            <span className="text-zinc-600">with Sprintly</span>
+          </h1>
+
+          {/* Description */}
+          <p className="text-zinc-600 max-w-2xl text-lg">
+            Sprintly helps teams plan, track, and deliver projects efficiently
+            with powerful tools, smart workflows, and real-time insights.
+          </p>
+
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+            <Link href="/onboarding">
+              <Button size="lg" className="px-8">
+                Get Started
+              </Button>
+            </Link>
+
+            <Link href="/project/create">
+              <Button
+                size="lg"
+                variant="outline"
+                className="px-8"
+              >
+                Create Project
+              </Button>
+            </Link>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      {/* FEATURES SECTION */}
+      <section className="p-20 bg-zinc-900/60 backdrop-blur">
+
+        <div className="max-w-7xl mx-auto">
+
+          {/* Section Title */}
+          <div className="text-center mb-16 space-y-3">
+
+            <h2 className="text-3xl md:text-4xl font-bold">
+              Everything You Need To Ship Faster
+            </h2>
+
+            <p className="text-zinc-600 max-w-2xl mx-auto">
+              Powerful features designed for modern teams.
+            </p>
+
+          </div>
+
+          {/* Feature Cards */}
+          <div className="grid grid-cols-1 text-white gap-1 md:grid-cols-3">
+
+            {[
+              {
+                title: "Smart Task Management",
+                desc: "Organize tasks with priorities, deadlines, and assignees.",
+              },
+              {
+                title: "Team Collaboration",
+                desc: "Work together in real-time with comments and updates.",
+              },
+              {
+                title: "Sprint Planning",
+                desc: "Plan and track sprints efficiently with visual boards.",
+              },
+              {
+                title: "Analytics & Reports",
+                desc: "Track performance and optimize productivity.",
+              },
+              {
+                title: "Secure Authentication",
+                desc: "Enterprise-grade security with Clerk authentication.",
+              },
+              {
+                title: "Cloud Sync",
+                desc: "Access your projects anytime, anywhere.",
+              },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className="p-16 rounded-1 border bg-zinc-600 shadow-sm hover:shadow-md transition"
+              >
+                <h3 className="text-xl font-semibold mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-white">
+                  {item.desc}
+                </p>
+              </div>
+            ))}
+
+          </div>
+
+        </div>
+      </section>
+
+
+      {/* CTA SECTION */}
+      <section className="p-20 px-6">
+
+        <div className="max-w-4xl mx-auto text-center space-y-6">
+
+          <h2 className="text-3xl md:text-4xl font-bold">
+            Ready to Boost Your Productivity?
+          </h2>
+
+          <p className="text-zinc-600 text-lg">
+            Join Sprintly today and start building better products.
+          </p>
+
+          <Link href="/onboarding">
+            <Button size="lg" className="px-10">
+              Start For Free
+            </Button>
+          </Link>
+
+        </div>
+      </section>
+
+    </main>
+  );
+}

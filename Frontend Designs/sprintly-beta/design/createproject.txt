@@ -1,0 +1,223 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useRouter } from "next/navigation";
+import { useOrganization, useUser } from "@clerk/nextjs";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import useFetch from "@/hooks/use-fetch";
+import { projectSchema } from "@/app/lib/validators";
+import { createProject } from "@/actions/projects";
+import { BarLoader } from "react-spinners";
+import OrgSwitcher from "@/components/org-switcher";
+import Image from "next/image";
+
+export default function CreateProjectPage() {
+    const router = useRouter();
+    const { isLoaded: isOrgLoaded, membership } = useOrganization();
+    const { isLoaded: isUserLoaded } = useUser();
+    const [isAdmin, setIsAdmin] = useState(false);
+
+    const {
+        register,
+        handleSubmit,
+        formState: { errors },
+    } = useForm({
+        resolver: zodResolver(projectSchema),
+    });
+
+    useEffect(() => {
+        if (isOrgLoaded && isUserLoaded && membership) {
+            setIsAdmin(membership.role === "org:admin");
+        }
+    }, [isOrgLoaded, isUserLoaded, membership]);
+
+    const {
+        loading,
+        error,
+        data: project,
+        fn: createProjectFn,
+    } = useFetch(createProject);
+
+    const onSubmit = async (data) => {
+        if (!isAdmin) {
+            alert("Only organization admins can create projects");
+            return;
+        }
+
+        createProjectFn(data);
+    };
+
+    useEffect(() => {
+        if (project) {
+            toast.success("Project created successfully!");
+            router.push(`/project/${project.id}`);
+        }
+    }, [loading]);
+
+    if (!isOrgLoaded || !isUserLoaded) {
+        return null;
+    }
+
+    if (!isAdmin) {
+        return (
+            <div className="flex flex-col gap-2 items-center">
+                <span className="text-2xl gradient-title">
+                    Oops! Only Admins can create projects.
+                </span>
+                <OrgSwitcher />
+            </div>
+        );
+    }
+
+    return (
+        <div className="flex items-center justify-center px-4 py-10">
+
+            {/* Card */}
+            <div className="w-full max-w-xl border-white/10 rounded-2xl p-6 sm:p-8">
+
+                {/* Title */}
+                <div className="text-center mb-8">
+                    <div className="w-full flex justify-center">
+                        <Image
+                            src="/sprintly-purple-icon.png"
+                            alt="Sprintly"
+                            width={64}
+                            height={64}
+                            priority
+                            className="w-20 h-20 object-contain"
+                        />
+                    </div>
+
+
+                    <h1 className="text-3xl sm:text-4xl font-bold gradient-title mb-2">
+                        Create New Project
+                    </h1>
+
+                    <p className="text-gray-400 text-sm sm:text-base">
+                        Set up a new project for your organization
+                    </p>
+                </div>
+
+                {/* Form */}
+                <form
+                    onSubmit={handleSubmit(onSubmit)}
+                    className="space-y-6"
+                >
+
+                    {/* Project Name */}
+                    <div className="space-y-2">
+                        <label
+                            htmlFor="name"
+                            className="text-sm font-medium text-gray-300"
+                        >
+                            Project Name
+                        </label>
+
+                        <Input
+                            id="name"
+                            {...register("name")}
+                            placeholder="Ex: Sprintly Dashboard"
+                            className="bg-slate-950 border-white/10 focus:border-violet-500 focus:ring-violet-500"
+                        />
+
+                        {errors.name && (
+                            <p className="text-red-500 text-xs">
+                                {errors.name.message}
+                            </p>
+                        )}
+                    </div>
+
+                    {/* Project Key */}
+                    <div className="space-y-2">
+                        <label
+                            htmlFor="key"
+                            className="text-sm font-medium text-gray-300"
+                        >
+                            Project Key
+                        </label>
+
+                        <Input
+                            id="key"
+                            {...register("key")}
+                            placeholder="Ex: SPT"
+                            className="uppercase bg-slate-950 border-white/10 focus:border-violet-500 focus:ring-violet-500"
+                        />
+
+                        <p className="text-xs text-gray-500">
+                            Used in issue IDs (Example: SPT-101)
+                        </p>
+
+                        {errors.key && (
+                            <p className="text-red-500 text-xs">
+                                {errors.key.message}
+                            </p>
+                        )}
+                    </div>
+
+                    {/* Description */}
+                    <div className="space-y-2">
+                        <label
+                            htmlFor="description"
+                            className="text-sm font-medium text-gray-300"
+                        >
+                            Description
+                        </label>
+
+                        <Textarea
+                            id="description"
+                            {...register("description")}
+                            placeholder="Describe your project..."
+                            className="min-h-[120px] bg-slate-950 border-white/10 focus:border-violet-500 focus:ring-violet-500 resize-none"
+                        />
+
+                        {errors.description && (
+                            <p className="text-red-500 text-xs">
+                                {errors.description.message}
+                            </p>
+                        )}
+                    </div>
+
+                    {/* Loader */}
+                    {loading && (
+                        <div className="pt-2">
+                            <BarLoader width="100%" color="#8b5cf6" />
+                        </div>
+                    )}
+
+                    {/* Submit Button */}
+                    <Button
+                        type="submit"
+                        size="lg"
+                        disabled={loading}
+                        className="
+            w-full
+            bg-zinc-100
+            hover:bg-violet-700
+            text-black
+            hover:text-white
+            font-semibold
+            rounded-xl
+            transition-all
+            duration-200
+          "
+                    >
+                        {loading ? "Creating Project..." : "Create Project"}
+                    </Button>
+
+                    {/* Error */}
+                    {error && (
+                        <p className="text-red-500 text-sm text-center">
+                            {error.message}
+                        </p>
+                    )}
+
+                </form>
+            </div>
+        </div>
+    );
+
+}
