@@ -70,10 +70,25 @@
 <img src="https://img.shields.io/badge/Bootstrap-%237D6E99?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
 -->
 
-
 ---
 
+
 <div align="left">
+
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/shap.png" />
+<h3> Shap </h3>
+<p>
+
+</p>
+
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/shap" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://shap-blog.netlify.app/" target="_blank">
+  <img width="80px" src="https://img.shields.io/badge/Shap-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+</a>
+
+
+---
   
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/REJOUICE%20(2).png" />
 <h3> Rejouice</h3>
