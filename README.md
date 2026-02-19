@@ -78,7 +78,11 @@
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/shap.png" />
 <h3> Shap </h3>
 <p>
-
+This landing page is a modern, responsive web interface built using Next.js and TypeScript.
+It leverages the power of server-side rendering and static site generation for optimal performance.
+The design is clean, interactive, and fully responsive across all devices and screen sizes.
+Components are modular and reusable, ensuring maintainable and scalable code.
+This project demonstrates the integration of Next.js features with TypeScript for type safety and developer efficiency.
 </p>
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/shap" target="_blank">
