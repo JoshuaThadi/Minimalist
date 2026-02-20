@@ -108,6 +108,22 @@ The <b>Rejouice</b> Website Clone is a creative web design project that replicat
 
 ---
 
+
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/buzzabout.png" />
+<h3> Buzzabout </h3>
+<p>
+This project is a BuzzAbout clone landing page built using React and TypeScript, designed to replicate a modern, high-converting product interface. It features a clean, responsive layout with reusable components and structured architecture for scalability. TypeScript ensures strong type safety, improving maintainability and developer productivity. The UI focuses on smooth interactions, clear content hierarchy, and performance optimization. This clone demonstrates practical front-end engineering skills and attention to modern web design standards.
+</p>
+
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/buzzabout" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://buzzabout-clone.netlify.app/" target="_blank">
+  <img width="128px" src="https://img.shields.io/badge/buzzabout-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+</a>
+
+
+---
+
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/sprintly-beta.png" />
 <h3> Sprintly </h3>
 <p>
