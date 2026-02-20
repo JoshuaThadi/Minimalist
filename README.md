@@ -124,6 +124,25 @@ This project is a BuzzAbout clone landing page built using React and TypeScript,
 
 ---
 
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/united.png" />
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/united1.png" />
+<h3> United Charity </h3>
+<p>
+
+</p>
+
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/united" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code1-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/united1" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code2-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://united-charity.netlify.app/" target="_blank">
+  <img width="160px" src="https://img.shields.io/badge/united-charity-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge"></a>
+<a href="https://unitedcharity.netlify.app/" target="_blank">
+  <img width="150px" src="https://img.shields.io/badge/unitedcharity-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge"></a>
+
+
+---
+
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/sprintly-beta.png" />
 <h3> Sprintly </h3>
 <p>
