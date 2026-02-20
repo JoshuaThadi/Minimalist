@@ -166,7 +166,7 @@ The <b>ByteBrief</b> landing page features a modern, sleek, and minimal design c
 
 --- -->
 
-<div align="left">
+<!-- <div align="left">
   
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/hasely.png" />
 <h3>Hasely</h3>
@@ -180,7 +180,7 @@ The <b>ByteBrief</b> landing page features a modern, sleek, and minimal design c
   <img width="102px" src="https://img.shields.io/badge/hasely-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
 </a>
 
----
+--- -->
 
 <img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/yeho.net.png">
 <img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/dashboard1.png">
@@ -227,6 +227,8 @@ A web-based terminal simulator built with HTML, CSS, and JavaScript. It mimics t
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
 <a href="https://bezehel-bashfolio.netlify.app/" target="_blank">
   <img src="https://img.shields.io/badge/Netlify-Bashfolio-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Bashfolio on Netlify"></a>
+<a href="https://github.com/Jostar-Foundation/Bashfolio" target="_blank">
+  <img width="150px" src="https://img.shields.io/badge/project-repo-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
 
 <br>
 <br>
