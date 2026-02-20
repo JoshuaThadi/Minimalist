@@ -128,7 +128,7 @@ This project is a BuzzAbout clone landing page built using React and TypeScript,
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/united1.png" />
 <h3> United Charity </h3>
 <p>
-
+This project is a United Charity landing page built using React and TypeScript, designed to present a clear and impactful digital presence for a nonprofit organization. It features a responsive and accessible layout that ensures a seamless experience across all devices. The architecture is component-based, promoting scalability, maintainability, and clean code practices. TypeScript enhances reliability through strong typing and structured development. The landing page focuses on conveying mission, vision, and calls to action in a modern and engaging way.
 </p>
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/united" target="_blank">
