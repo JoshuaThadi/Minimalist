@@ -90,7 +90,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            © {currentYear} Todor Dimov. All rights reserved.
+            © {currentYear} Joshua Thadi. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground">
             Designed & developed with precision
