@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 10% 97%;
+    --foreground: 0 0% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 12%;
+
+    --primary: 160 28% 24%;
+    --primary-foreground: 40 10% 97%;
+
+    --secondary: 40 8% 93%;
+    --secondary-foreground: 0 0% 12%;
+
+    --muted: 40 6% 90%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 160 28% 24%;
+    --accent-foreground: 40 10% 97%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 8% 88%;
+    --input: 40 8% 88%;
+    --ring: 160 28% 24%;
+
+    --radius: 0.25rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 200 12% 7%;
+    --foreground: 40 10% 92%;
+
+    --card: 200 12% 10%;
+    --card-foreground: 40 10% 92%;
+
+    --popover: 200 12% 10%;
+    --popover-foreground: 40 10% 92%;
+
+    --primary: 160 40% 50%;
+    --primary-foreground: 200 12% 7%;
+
+    --secondary: 200 8% 14%;
+    --secondary-foreground: 40 10% 92%;
+
+    --muted: 200 8% 14%;
+    --muted-foreground: 40 5% 55%;
+
+    --accent: 160 40% 50%;
+    --accent-foreground: 200 12% 7%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 200 8% 18%;
+    --input: 200 8% 18%;
+    --ring: 160 40% 50%;
+
+    --sidebar-background: 200 12% 7%;
+    --sidebar-foreground: 40 10% 92%;
+    --sidebar-primary: 160 40% 50%;
+    --sidebar-primary-foreground: 200 12% 7%;
+    --sidebar-accent: 200 8% 14%;
+    --sidebar-accent-foreground: 40 10% 92%;
+    --sidebar-border: 200 8% 18%;
+    --sidebar-ring: 160 40% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Outfit', sans-serif;
+  }
+}
