@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Satoshi font loaded via index.html */
+
+@layer base {
+  :root {
+    --background: 40 20% 98%;
+    --foreground: 0 0% 8%;
+
+    --card: 40 20% 98%;
+    --card-foreground: 0 0% 8%;
+
+    --popover: 40 20% 98%;
+    --popover-foreground: 0 0% 8%;
+
+    --primary: 0 0% 8%;
+    --primary-foreground: 40 20% 98%;
+
+    --secondary: 40 15% 94%;
+    --secondary-foreground: 0 0% 8%;
+
+    --muted: 40 10% 90%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 15 70% 85%;
+    --accent-foreground: 0 0% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 10% 88%;
+    --input: 40 10% 88%;
+    --ring: 0 0% 8%;
+
+    --radius: 0.5rem;
+
+    --font-heading: 'Satoshi', sans-serif;
+    --font-body: 'Satoshi', sans-serif;
+  }
+
+  .dark {
+    --background: 0 0% 6%;
+    --foreground: 40 20% 98%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 40 20% 98%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 40 20% 98%;
+
+    --primary: 40 20% 98%;
+    --primary-foreground: 0 0% 8%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 40 20% 98%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 40 10% 60%;
+
+    --accent: 15 50% 25%;
+    --accent-foreground: 40 20% 98%;
+
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 40 20% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .text-display {
+    font-size: clamp(4rem, 15vw, 12rem);
+    line-height: 0.9;
+    letter-spacing: -0.04em;
+    font-weight: 400;
+  }
+
+  .text-display-sm {
+    font-size: clamp(2rem, 6vw, 4rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+  }
+
+  .hover-line {
+    position: relative;
+  }
+
+  .hover-line::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: hsl(var(--foreground));
+    transition: width 0.3s ease;
+  }
+
+  .hover-line:hover::after {
+    width: 100%;
+  }
+}
