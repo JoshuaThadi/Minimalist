@@ -75,6 +75,57 @@
 
 <div align="left">
 
+
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/joshuathadi-devfolio.png" />
+<h3> Portfolio Website </h3>
+
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/JoshuaThadi-main" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://joshuathadi-devfolio.netlify.app/" target="_blank">
+  <img width="125px" src="https://img.shields.io/badge/Portfolio-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+</a>
+
+
+---
+
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/haselyai.png" />
+<h3> Hasely Website </h3>
+
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/hasely-ai-glow-main" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://hasely-demo.netlify.app/" target="_blank">
+  <img width="155px" src="https://img.shields.io/badge/hasely-demo-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+</a>
+
+
+---
+
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/nikka.png" />
+<h3> Nikka </h3>
+
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/nikka-main" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://nikka-demo.netlify.app/" target="_blank">
+  <img width="95px" src="https://img.shields.io/badge/Nikka-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+</a>
+
+
+---
+
+
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/autorun.png" />
+<h3> Autorun </h3>
+
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/autorun-main" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://autorun-demo.netlify.app/" target="_blank">
+  <img width="115px" src="https://img.shields.io/badge/Autorun-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+</a>
+
+
+---
+
+
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/shap.png" />
 <h3> Shap </h3>
 <!-- <p>
