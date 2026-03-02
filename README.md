@@ -77,13 +77,13 @@
 
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/shap.png" />
 <h3> Shap </h3>
-<p>
+<!-- <p>
 This landing page is a modern, responsive web interface built using Next.js and TypeScript.
 It leverages the power of server-side rendering and static site generation for optimal performance.
 The design is clean, interactive, and fully responsive across all devices and screen sizes.
 Components are modular and reusable, ensuring maintainable and scalable code.
 This project demonstrates the integration of Next.js features with TypeScript for type safety and developer efficiency.
-</p>
+</p> -->
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/shap" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
@@ -96,9 +96,9 @@ This project demonstrates the integration of Next.js features with TypeScript fo
   
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/REJOUICE%20(2).png" />
 <h3> Rejouice</h3>
-<p>
+<!-- <p>
 The <b>Rejouice</b> Website Clone is a creative web design project that replicates the look and feel of the original Rejouice agency website. Built using HTML, CSS, and JavaScript, along with powerful animation libraries like GSAP and Locomotive Scroll, this project demonstrates the use of motion design, scroll-based effects, and responsive layouts.
-</p>
+</p> -->
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/rejouice" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
@@ -111,9 +111,9 @@ The <b>Rejouice</b> Website Clone is a creative web design project that replicat
 
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/buzzabout.png" />
 <h3> Buzzabout </h3>
-<p>
+<!-- <p>
 This project is a BuzzAbout clone landing page built using React and TypeScript, designed to replicate a modern, high-converting product interface. It features a clean, responsive layout with reusable components and structured architecture for scalability. TypeScript ensures strong type safety, improving maintainability and developer productivity. The UI focuses on smooth interactions, clear content hierarchy, and performance optimization. This clone demonstrates practical front-end engineering skills and attention to modern web design standards.
-</p>
+</p> -->
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/buzzabout" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
@@ -127,9 +127,9 @@ This project is a BuzzAbout clone landing page built using React and TypeScript,
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/united.png" />
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/united1.png" />
 <h3> United Charity </h3>
-<p>
+<!-- <p>
 This project is a United Charity landing page built using React and TypeScript, designed to present a clear and impactful digital presence for a nonprofit organization. It features a responsive and accessible layout that ensures a seamless experience across all devices. The architecture is component-based, promoting scalability, maintainability, and clean code practices. TypeScript enhances reliability through strong typing and structured development. The landing page focuses on conveying mission, vision, and calls to action in a modern and engaging way.
-</p>
+</p> -->
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/united" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code1-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
@@ -145,9 +145,9 @@ This project is a United Charity landing page built using React and TypeScript, 
 
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/sprintly-beta.png" />
 <h3> Sprintly </h3>
-<p>
+<!-- <p>
 The Sprintly Landing Page is a modern and responsive web design project created to showcase a fast, clean, and user-friendly digital product interface. Built using Next.js, Tailwind CSS, and Javascript, this project focuses on performance, scalability, and elegant UI design. It features smooth navigation, optimized layouts, and visually appealing components that adapt seamlessly across devices. The landing page highlights key product features, call-to-action sections, and branding elements, demonstrating best practices in frontend development and modern web architecture.
-</p>
+</p> -->
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/sprintly-beta" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
@@ -157,55 +157,11 @@ The Sprintly Landing Page is a modern and responsive web design project created 
 
 ---
 
-<!-- <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/CodeRaiderLand.png" />
-<h3> CodeRaider</h3>
-<p>
-The <b>CodeRaider</b> landing page embraces a bold, futuristic, and ultra-clean aesthetic, reflecting the power and precision of the platform. Its modern layout uses crisp typography, balanced spacing, and a dark, high-contrast palette that gives the interface a sleek developer-centric feel. Smooth transitions, glowing accents, and subtle depth effects create a dynamic visual experience without overwhelming the user.
-</p>
-
-<a href="https://github.com/Jostar-Foundation/CodeRaider" target="_blank">
-  <img width="140px" src="https://img.shields.io/badge/Repository-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a href="https://code-raider.netlify.app/" target="_blank">
-  <img width="140px" src="https://img.shields.io/badge/CodeRaider-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
-</a>
-
----
-
-<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/byteland.png" />
-<h3>ByteBrief</h3>
-<p>
-The <b>ByteBrief</b> landing page features a modern, sleek, and minimal design crafted for clarity and focus. With clean typography, spacious layout, and a calm visual hierarchy, every element is designed to feel intuitive and lightweight. The interface uses subtle gradients, soft shadows, and balanced contrast, giving the page a polished, contemporary feel while remaining distraction-free.
-</p>
-
-<a href="https://github.com/Jostar-Foundation/ByteBrief" target="_blank">
-  <img width="140px" src="https://img.shields.io/badge/Repository-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a href="https://bytebriefs.netlify.app/" target="_blank">
-  <img width="130px" src="https://img.shields.io/badge/bytebrief-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
-</a>
-
---- -->
-
-<!-- <div align="left">
-  
-<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/hasely.png" />
-<h3>Hasely</h3>
-<p>
-<b>Hasely</b> is a modern, minimalistic landing page built with Vite.js, designed for speed and performance. Its sleek, clean UI emphasizes simplicity while providing an elegant, user-friendly experience. The interface focuses on smooth interactions, subtle animations, and a responsive layout, making it ideal for showcasing products, services, or personal projects with style and efficiency.
-</p>
-
-<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/hasely-main" target="_blank">
-  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a href="https://hasely.netlify.app/" target="_blank">
-  <img width="102px" src="https://img.shields.io/badge/hasely-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
-</a>
-
---- -->
-
 <img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/yeho.net.png">
 <img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/dashboard1.png">
 <h3>Yeho .Net</h3>
-This <b>Yeho .NET</b> is a Dotnet Core MVC full-stack application is a minimalistic, modern website integrated with a robust Customer Management System. Built using HTML, CSS, and Bootstrap v5 architecture, it ensures clean UI, efficient performance, and easy customer data handling. Ideal for managing clients in a sleek, responsive web environment.
-<br>
+<!-- This <b>Yeho .NET</b> is a Dotnet Core MVC full-stack application is a minimalistic, modern website integrated with a robust Customer Management System. Built using HTML, CSS, and Bootstrap v5 architecture, it ensures clean UI, efficient performance, and easy customer data handling. Ideal for managing clients in a sleek, responsive web environment.
+<br> -->
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/Yeho.Net" target="_blank">
   <img src="https://img.shields.io/badge/source-code-grey?style=for-the-badge&logo=github&logoColor=white" alt="Repository Badge"></a>
 
@@ -217,11 +173,11 @@ This <b>Yeho .NET</b> is a Dotnet Core MVC full-stack application is a minimalis
 
 ---
 
-<!-- <img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/dark-alchemy.png">
+<img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/dark-alchemy.png">
 
 <div align="left">
 <h3>Alchemy AI</h3>
-<b>Alchemy Ai</b> is a interactive AI platform where users can prompt any question and receive intelligent responses using their own external API key. It supports uploading images and files, allowing users to ask context-aware questions based on visual or document data. Designed for versatility, Alchemy AI bridges human curiosity with advanced AI capabilities across text and media inputs.
+<!-- <b>Alchemy Ai</b> is a interactive AI platform where users can prompt any question and receive intelligent responses using their own external API key. It supports uploading images and files, allowing users to ask context-aware questions based on visual or document data. Designed for versatility, Alchemy AI bridges human curiosity with advanced AI capabilities across text and media inputs. -->
 
 ⚠️ **Note:** If the application is not responding, the API key might be expired or invalid.
 
@@ -232,15 +188,15 @@ This <b>Yeho .NET</b> is a Dotnet Core MVC full-stack application is a minimalis
   <img src="https://img.shields.io/badge/Netlify-Alchemy_AI-555555?style=for-the-badge&logo=netlify&logoColor=white" alt="Alchemy AI Platform"></a>
 
 
---- -->
+---
 
 <div align="left">
 
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/bezehel-folio.png" alt="masterjudah-bashfolio" />
 <h3>Bashfolio</h3>
-<p>
+<!-- <p>
 A web-based terminal simulator built with HTML, CSS, and JavaScript. It mimics the look and feel of a real command-line interface, offering an interactive and responsive user experience. Perfect for portfolios, easter eggs, or fun web experiments. Fully customizable and lightweight.
-</p>
+</p> -->
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/Terminal-Website" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
@@ -259,9 +215,9 @@ A web-based terminal simulator built with HTML, CSS, and JavaScript. It mimics t
 
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/mj-dev.png" />
 <h3> Devfolio</h3>
-<p>
+<!-- <p>
 The <b>Vite.js Webfolio</b> is a personal portfolio website project built using the modern frontend build tool Vite to showcase my work and skills. This project leverages the speed and efficiency of Vite, along with core web technologies like HTML, CSS, and JavaScript, to deliver a fast, responsive, and aesthetically pleasing user experience. It highlights best practices in frontend development, including efficient asset bundling, quick development server startup, and modular design.
-</p>
+</p> -->
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/MasterJudah-devfolio" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
@@ -275,9 +231,9 @@ The <b>Vite.js Webfolio</b> is a personal portfolio website project built using 
   
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/Screenshot%202025-05-12%20222654.png" alt="Coffy 3D Preview" />
 <h3>Proview</h3>
-<p>
+<!-- <p>
 <b>Proview Blog</b> is a simple, old-school Information Technology blog built with basic Bootstrap. While its design may feel dated, it still offers useful insights, tutorials, and updates on tech, software development, and digital trends.
-</p>
+</p> -->
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/Proview" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
@@ -289,8 +245,8 @@ The <b>Vite.js Webfolio</b> is a personal portfolio website project built using 
 
 <img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/noteappui.png">
 <h3>NoteAppUi</h3>
-<p>This web application allows you to create, organize, and manage your notes efficiently. You can add detailed notes for in-depth information or quick notes for instant reminders and ideas. The app is designed to keep all your notes accessible, searchable, and easy to update, helping you stay organized and productive.
-</p>
+<!-- <p>This web application allows you to create, organize, and manage your notes efficiently. You can add detailed notes for in-depth information or quick notes for instant reminders and ideas. The app is designed to keep all your notes accessible, searchable, and easy to update, helping you stay organized and productive.
+</p> -->
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/Notes%20Web%20App" target="_blank">
   <img src="https://img.shields.io/badge/source%20Code-grey?style=for-the-badge&logo=github&logoColor=white" alt="Repository Badge"></a>
@@ -304,10 +260,10 @@ The <b>Vite.js Webfolio</b> is a personal portfolio website project built using 
 
 <img src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/Screenshot%202025-05-12%20222809.png" alt="Coffy 3D Preview 2" width="100%" />
 <h3>Majestic Model</h3>
-<p>
+<!-- <p>
 The project, built using HTML, CSS, Bootstrap, and JavaScript, includes both fully responsive and non-responsive modal popups for the signup page, 
 adjusting seamlessly for mobile and desktop screens. The signup form is contained within a centrally positioned modal, providing an elegant and user-friendly experience across devices.
-</p>
+</p> -->
 
 
 <a href="https://github.com/JoshuaThadi/Web-Development/tree/main/Frontend%20Designs/Login%20page%20html" target="_blank">
@@ -321,10 +277,10 @@ adjusting seamlessly for mobile and desktop screens. The signup form is containe
 
 <img src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/Screenshot%202025-05-12%20222856.png" alt="Coffy 3D Preview 4" width="100%" />
 <h3>Web Dev</h3>
-<p>
+<!-- <p>
 This repository contains my practical work with Bootstrap, focusing on modern, responsive web development.
 The <b>WebDev</b> project demonstrates how I’ve used Bootstrap’s grid system, components, and utilities to build sleek, user-friendly interfaces.
-</p>
+</p> -->
 
   <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/Bootstrap%20Framework" target="_blank">
   <img width="143px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
@@ -335,9 +291,9 @@ The <b>WebDev</b> project demonstrates how I’ve used Bootstrap’s grid system
 
 <img src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/Screenshot%202025-05-12%20222925.png" alt="Coffy 3D Preview 5" width="100%" />
 <h3>Coffy</h3>
-<p>
+<!-- <p>
 <b>Coffy</b> is a sleek and interactive 3D model showcase built with HTML and CSS, featuring a 3D model imported from Spline. It presents my creative work in a visually immersive way, blending elegant UI with real-time 3D rendering to highlight my design skills and technical ability. 
-</p>
+</p> -->
 
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/3D%20website" target="_blank">
   <img width="143px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
