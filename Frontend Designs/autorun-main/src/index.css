@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 99%;
+    --foreground: 0 0% 7%;
+
+    --card: 0 0% 97%;
+    --card-foreground: 0 0% 7%;
+
+    --popover: 0 0% 99%;
+    --popover-foreground: 0 0% 7%;
+
+    --primary: 230 80% 56%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 20%;
+
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 230 80% 56%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 91%;
+    --input: 0 0% 91%;
+    --ring: 230 80% 56%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 97%;
+    --sidebar-foreground: 0 0% 20%;
+    --sidebar-primary: 230 80% 56%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 95%;
+    --sidebar-accent-foreground: 0 0% 20%;
+    --sidebar-border: 0 0% 91%;
+    --sidebar-ring: 230 80% 56%;
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 93%;
+
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 93%;
+
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 93%;
+
+    --primary: 230 80% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 80%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 55%;
+
+    --accent: 230 80% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 93%;
+
+    --border: 0 0% 14%;
+    --input: 0 0% 14%;
+    --ring: 230 80% 60%;
+
+    --sidebar-background: 0 0% 7%;
+    --sidebar-foreground: 0 0% 80%;
+    --sidebar-primary: 230 80% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 80%;
+    --sidebar-border: 0 0% 14%;
+    --sidebar-ring: 230 80% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .glass {
+    @apply bg-background/70 backdrop-blur-xl border border-border/50;
+  }
+  .glass-card {
+    @apply bg-card/50 backdrop-blur-lg border border-border/50 rounded-2xl;
+  }
+}
