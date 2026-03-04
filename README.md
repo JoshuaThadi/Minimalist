@@ -20,7 +20,7 @@
 </div>
 
 <div align="left">
-<h2 align="center">🌟 Web Development </h2>
+<h2 align="center">🌟 Minimalist </h2>
 <div align="center">
 <a href="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/web-dev-roadmap.md">
   <img  align="center"  src="https://img.shields.io/badge/Web%20Dev%20Roadmap-grey?style=for-the-badge&logo=github" alt="Web Dev Roadmap"></a>
@@ -46,9 +46,9 @@
 
 <p align="left">
   
->Web development is the process of building and maintaining websites or web applications that run on the internet. It involves everything from creating simple static web pages to complex dynamic web applications, e-commerce platforms, and social networking services.
+Minimalist is a sleek, modern frontend website designed with simplicity and elegance at its core. Built with a minimal design philosophy, it focuses on clean layouts, smooth user experience, and refined visual aesthetics while maintaining performance and responsiveness across devices.
 
-</p>
+<!-- </p>
 <p align="left">
   <strong>It involves three main components:</strong>
   <ol>
@@ -56,7 +56,7 @@
     <li><strong>Backend Development</strong> – Creating the server-side logic, databases, and APIs using languages like Python, Node.js, or express.js.</li>
     <li><strong>Full-Stack Development</strong> – Combining both frontend and backend development skills.</li>
   </ol>
-</p>
+</p> -->
 
 
 <div align="center">
@@ -78,7 +78,7 @@
 
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/joshuathadi-devfolio.png" />
 <h3> Portfolio Website </h3>
-
+<p>Tech stack: React, Typescript, Tailwindcss</p>
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/JoshuaThadi-main" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
 <a href="https://joshuathadi-devfolio.netlify.app/" target="_blank">
@@ -88,21 +88,9 @@
 
 ---
 
-<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/haselyai.png" />
-<h3> Hasely Website </h3>
-
-<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/hasely-ai-glow-main" target="_blank">
-  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a href="https://hasely-demo.netlify.app/" target="_blank">
-  <img width="155px" src="https://img.shields.io/badge/hasely-demo-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
-</a>
-
-
----
-
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/nikka.png" />
 <h3> Nikka </h3>
-
+<p>Tech stack: React, Typescript, Tailwindcss</p>
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/nikka-main" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
 <a href="https://nikka-demo.netlify.app/" target="_blank">
@@ -113,21 +101,9 @@
 ---
 
 
-<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/autorun.png" />
-<h3> Autorun </h3>
-
-<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/autorun-main" target="_blank">
-  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a href="https://autorun-demo.netlify.app/" target="_blank">
-  <img width="115px" src="https://img.shields.io/badge/Autorun-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
-</a>
-
-
----
-
-
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/shap.png" />
 <h3> Shap </h3>
+<p>Tech stack: React, Typescript, Tailwindcss</p>
 <!-- <p>
 This landing page is a modern, responsive web interface built using Next.js and TypeScript.
 It leverages the power of server-side rendering and static site generation for optimal performance.
@@ -143,41 +119,13 @@ This project demonstrates the integration of Next.js features with TypeScript fo
 </a>
 
 
----
-  
-<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/REJOUICE%20(2).png" />
-<h3> Rejouice</h3>
-<!-- <p>
-The <b>Rejouice</b> Website Clone is a creative web design project that replicates the look and feel of the original Rejouice agency website. Built using HTML, CSS, and JavaScript, along with powerful animation libraries like GSAP and Locomotive Scroll, this project demonstrates the use of motion design, scroll-based effects, and responsive layouts.
-</p> -->
-
-<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/rejouice" target="_blank">
-  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a href="https://rejouici.netlify.app/" target="_blank">
-  <img width="115px" src="https://img.shields.io/badge/rejouice-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
-</a>
-
----
-
-
-<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/buzzabout.png" />
-<h3> Buzzabout </h3>
-<!-- <p>
-This project is a BuzzAbout clone landing page built using React and TypeScript, designed to replicate a modern, high-converting product interface. It features a clean, responsive layout with reusable components and structured architecture for scalability. TypeScript ensures strong type safety, improving maintainability and developer productivity. The UI focuses on smooth interactions, clear content hierarchy, and performance optimization. This clone demonstrates practical front-end engineering skills and attention to modern web design standards.
-</p> -->
-
-<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/buzzabout" target="_blank">
-  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a href="https://buzzabout-clone.netlify.app/" target="_blank">
-  <img width="128px" src="https://img.shields.io/badge/buzzabout-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
-</a>
-
 
 ---
 
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/united.png" />
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/united1.png" />
 <h3> United Charity </h3>
+<p>Tech stack: React, Typescript, Tailwindcss</p>
 <!-- <p>
 This project is a United Charity landing page built using React and TypeScript, designed to present a clear and impactful digital presence for a nonprofit organization. It features a responsive and accessible layout that ensures a seamless experience across all devices. The architecture is component-based, promoting scalability, maintainability, and clean code practices. TypeScript enhances reliability through strong typing and structured development. The landing page focuses on conveying mission, vision, and calls to action in a modern and engaging way.
 </p> -->
@@ -196,6 +144,7 @@ This project is a United Charity landing page built using React and TypeScript, 
 
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/sprintly-beta.png" />
 <h3> Sprintly </h3>
+<p>Tech stack: React, Javascript, Tailwindcss</p>
 <!-- <p>
 The Sprintly Landing Page is a modern and responsive web design project created to showcase a fast, clean, and user-friendly digital product interface. Built using Next.js, Tailwind CSS, and Javascript, this project focuses on performance, scalability, and elegant UI design. It features smooth navigation, optimized layouts, and visually appealing components that adapt seamlessly across devices. The landing page highlights key product features, call-to-action sections, and branding elements, demonstrating best practices in frontend development and modern web architecture.
 </p> -->
@@ -206,11 +155,29 @@ The Sprintly Landing Page is a modern and responsive web design project created 
   <img width="163px" src="https://img.shields.io/badge/sprintly-beta-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
 </a>
 
+
+---
+  
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/REJOUICE%20(2).png" />
+<h3> Rejouice</h3>
+<p>Tech stack: HTML, CSS, JavaScript, GSAP and Locomotive Scroll</p>
+<!-- <p>
+The <b>Rejouice</b> Website Clone is a creative web design project that replicates the look and feel of the original Rejouice agency website. Built using HTML, CSS, and JavaScript, along with powerful animation libraries like GSAP and Locomotive Scroll, this project demonstrates the use of motion design, scroll-based effects, and responsive layouts.
+</p> -->
+
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/rejouice" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://rejouici.netlify.app/" target="_blank">
+  <img width="115px" src="https://img.shields.io/badge/rejouice-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+</a>
+
+
 ---
 
 <img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/yeho.net.png">
 <img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/dashboard1.png">
 <h3>Yeho .Net</h3>
+<p>Tech stack: Html, Bootstrap, Css, Javascript, Dom, Cdn</p>
 <!-- This <b>Yeho .NET</b> is a Dotnet Core MVC full-stack application is a minimalistic, modern website integrated with a robust Customer Management System. Built using HTML, CSS, and Bootstrap v5 architecture, it ensures clean UI, efficient performance, and easy customer data handling. Ideal for managing clients in a sleek, responsive web environment.
 <br> -->
 <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/Yeho.Net" target="_blank">
@@ -228,6 +195,7 @@ The Sprintly Landing Page is a modern and responsive web design project created 
 
 <div align="left">
 <h3>Alchemy AI</h3>
+<p>Tech stack: HTML, CSS, and JavaScript</p>
 <!-- <b>Alchemy Ai</b> is a interactive AI platform where users can prompt any question and receive intelligent responses using their own external API key. It supports uploading images and files, allowing users to ask context-aware questions based on visual or document data. Designed for versatility, Alchemy AI bridges human curiosity with advanced AI capabilities across text and media inputs. -->
 
 ⚠️ **Note:** If the application is not responding, the API key might be expired or invalid.
@@ -245,6 +213,7 @@ The Sprintly Landing Page is a modern and responsive web design project created 
 
 <img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/bezehel-folio.png" alt="masterjudah-bashfolio" />
 <h3>Bashfolio</h3>
+<p>Tech stack: HTML, CSS, and JavaScript</p>
 <!-- <p>
 A web-based terminal simulator built with HTML, CSS, and JavaScript. It mimics the look and feel of a real command-line interface, offering an interactive and responsive user experience. Perfect for portfolios, easter eggs, or fun web experiments. Fully customizable and lightweight.
 </p> -->
@@ -256,104 +225,36 @@ A web-based terminal simulator built with HTML, CSS, and JavaScript. It mimics t
 <a href="https://github.com/Jostar-Foundation/Bashfolio" target="_blank">
   <img width="150px" src="https://img.shields.io/badge/project-repo-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
 
-<br>
-<br>
-
-<details>
-  <summary>Outdated stack</summary>
 
 ---
 
-<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/mj-dev.png" />
-<h3> Devfolio</h3>
+
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/buzzabout.png" />
+<h3> Buzzabout </h3>
+<p>Tech stack: React, Typescript, Tailwindcss</p>
 <!-- <p>
-The <b>Vite.js Webfolio</b> is a personal portfolio website project built using the modern frontend build tool Vite to showcase my work and skills. This project leverages the speed and efficiency of Vite, along with core web technologies like HTML, CSS, and JavaScript, to deliver a fast, responsive, and aesthetically pleasing user experience. It highlights best practices in frontend development, including efficient asset bundling, quick development server startup, and modular design.
+This project is a BuzzAbout clone landing page built using React and TypeScript, designed to replicate a modern, high-converting product interface. It features a clean, responsive layout with reusable components and structured architecture for scalability. TypeScript ensures strong type safety, improving maintainability and developer productivity. The UI focuses on smooth interactions, clear content hierarchy, and performance optimization. This clone demonstrates practical front-end engineering skills and attention to modern web design standards.
 </p> -->
 
-<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/MasterJudah-devfolio" target="_blank">
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/buzzabout" target="_blank">
   <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a href="https://masterjudah.netlify.app/" target="_blank">
-  <img width="145px" src="https://img.shields.io/badge/MasterJudah-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
-</a>  
-
----
-
-<div align="left">
-  
-<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/Screenshot%202025-05-12%20222654.png" alt="Coffy 3D Preview" />
-<h3>Proview</h3>
-<!-- <p>
-<b>Proview Blog</b> is a simple, old-school Information Technology blog built with basic Bootstrap. While its design may feel dated, it still offers useful insights, tutorials, and updates on tech, software development, and digital trends.
-</p> -->
-
-<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/Proview" target="_blank">
-  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a href="https://proviewblog.netlify.app/" target="_blank">
-    <img width="240px" src="https://img.shields.io/badge/Bootstrap_v4.2-Proview-%235E81AC?style=for-the-badge&logo=bootstrap&logoColor=white" alt="PROVIEW"></a>
-
-
----
-
-<img width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/noteappui.png">
-<h3>NoteAppUi</h3>
-<!-- <p>This web application allows you to create, organize, and manage your notes efficiently. You can add detailed notes for in-depth information or quick notes for instant reminders and ideas. The app is designed to keep all your notes accessible, searchable, and easy to update, helping you stay organized and productive.
-</p> -->
-
-<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/Notes%20Web%20App" target="_blank">
-  <img src="https://img.shields.io/badge/source%20Code-grey?style=for-the-badge&logo=github&logoColor=white" alt="Repository Badge"></a>
-
-<a href="https://noteappui.netlify.app/" target="_blank">
-  <img src="https://img.shields.io/badge/netlify-noteappui-grey?style=for-the-badge&logo=netlify&logoColor=white" alt="Website Badge"></a>
-
-</div>
-
----
-
-<img src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/Screenshot%202025-05-12%20222809.png" alt="Coffy 3D Preview 2" width="100%" />
-<h3>Majestic Model</h3>
-<!-- <p>
-The project, built using HTML, CSS, Bootstrap, and JavaScript, includes both fully responsive and non-responsive modal popups for the signup page, 
-adjusting seamlessly for mobile and desktop screens. The signup form is contained within a centrally positioned modal, providing an elegant and user-friendly experience across devices.
-</p> -->
-
-
-<a href="https://github.com/JoshuaThadi/Web-Development/tree/main/Frontend%20Designs/Login%20page%20html" target="_blank">
-  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a align="center" href="https://majesticmodal.netlify.app/" target="_blank">
-    <img width="210px" src="https://img.shields.io/badge/Html-MODAL_POPUP-%236E738D?style=for-the-badge&logo=html5&logoColor=white" alt="GitHub Modal-PopUp"></a>
-
----
-
-
-
-<img src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/Screenshot%202025-05-12%20222856.png" alt="Coffy 3D Preview 4" width="100%" />
-<h3>Web Dev</h3>
-<!-- <p>
-This repository contains my practical work with Bootstrap, focusing on modern, responsive web development.
-The <b>WebDev</b> project demonstrates how I’ve used Bootstrap’s grid system, components, and utilities to build sleek, user-friendly interfaces.
-</p> -->
-
-  <a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/Bootstrap%20Framework" target="_blank">
-  <img width="143px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-  <a href="https://webdev-masterjudah.netlify.app/" target="_blank">
-     <img width="203px" src="https://img.shields.io/badge/Bootstrap-WebDev-%23007FFF?style=for-the-badge&logo=bootstrap&logoColor=%23ffffff" alt="GitHub Badge"></a>
-
----
-
-<img src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/Screenshot%202025-05-12%20222925.png" alt="Coffy 3D Preview 5" width="100%" />
-<h3>Coffy</h3>
-<!-- <p>
-<b>Coffy</b> is a sleek and interactive 3D model showcase built with HTML and CSS, featuring a 3D model imported from Spline. It presents my creative work in a visually immersive way, blending elegant UI with real-time 3D rendering to highlight my design skills and technical ability. 
-</p> -->
-
-<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/3D%20website" target="_blank">
-  <img width="143px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
-<a href="https://coffy-3d.netlify.app/" target="_blank">
-  <img width="165px" src="https://img.shields.io/badge/Netlify-COFFY-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+<a href="https://buzzabout-clone.netlify.app/" target="_blank">
+  <img width="128px" src="https://img.shields.io/badge/buzzabout-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
 </a>
 
-  
-</details>
+
+
+---
+
+<img align="center" width="100%" src="https://github.com/JoshuaThadi/Minimalist/blob/main/assets/haselyai.png" />
+<h3> Hasely Website </h3>
+<p>Tech stack: React, Typescript, Tailwindcss</p>
+<a href="https://github.com/JoshuaThadi/Minimalist/tree/main/Frontend%20Designs/hasely-ai-glow-main" target="_blank">
+  <img width="140px" src="https://img.shields.io/badge/Source%20Code-494848?style=for-the-badge&logo=github&logoColor=white" alt="Source Code Badge"></a>
+<a href="https://hasely-demo.netlify.app/" target="_blank">
+  <img width="155px" src="https://img.shields.io/badge/hasely-demo-494848?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo Badge">
+</a>
+
      
 </div>
 </div>
