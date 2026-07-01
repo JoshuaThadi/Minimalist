@@ -48,7 +48,7 @@ Minimalist is a sleek, modern frontend website designed with simplicity and eleg
 
 Explore the digital frontier with this IT image file, with modern, sleek, and minimal design. It features sleek interfaces and Everything that you need to know from beginner friendly web designs to extremely professional designs.</h4>
 
-<a href="https://in.pinterest.com/Bezehel/all-about-it/" target="_blank"><img width="130px" src="https://img.shields.io/badge/Pinterest-%23E60023?style=flat-square&logo=pinterest&logoColor=white" alt="Pinterest Badge" /></a>
+<a align="center" href="https://in.pinterest.com/Bezehel/all-about-it/" target="_blank"><img width="130px" src="https://img.shields.io/badge/Pinterest-%23E60023?style=flat-square&logo=pinterest&logoColor=white" alt="Pinterest Badge" /></a>
 
 
 <!-- </p>
